@@ -2,7 +2,7 @@
 
 This repo covers the implementation of the following paper:  **"Embedding Hallucination for Few-shot Language Learning"** .
 
-<img src="figures/overview.png" width="500">
+<img src="figures/overview.png" width="400">
 
 If you find this repo useful for your research, please consider citing the paper.
 ```bibtex
