@@ -1,6 +1,6 @@
 # EmbedHalluc for Few-shot Language Learners
 
-This repo covers the implementation of the following paper:  **"Embedding Hallucination for Few-shot Language Learning"** .
+This repo covers the implementation of the following paper:  **"Embedding Hallucination for Few-shot Language Learning"** accepted by NAACL 2022.
 
 <img src="figures/overview.png" width="400">
 
