@@ -1,7 +1,19 @@
 # EmbedHalluc for Few-shot Language Learners
 
 This repo covers the implementation of the following paper:  **"Embedding Hallucination for Few-shot Language Learning"** .
+
+<img src="figures/overview.png" width="500">
+
 If you find this repo useful for your research, please consider citing the paper.
+```bibtex
+@article{Jian2022EmbedHalluc,
+    author = {Yiren Jian, Chongyang Gao and Soroush Vosoughi},
+    title = {Embedding Hallucination for Few-shot Language Fine-tuning},
+    journal = {NAACL},
+    year = {2022}
+}
+```
+
 
 Our code is  heavily borrowed from [LM-BFF](https://github.com/princeton-nlp/LM-BFF).
 
