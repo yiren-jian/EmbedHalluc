@@ -7,10 +7,10 @@ This repo covers the implementation of the following paper:  **"Embedding Halluc
 If you find this repo useful for your research, please consider citing the paper.
 ```bibtex
 @article{Jian2022EmbedHalluc,
-    author = {Jian, Yiren and Gao, Chongyang and Vosoughi, Soroush},
-    title = {Embedding Hallucination for Few-shot Language Learning},
-    journal = {Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
-    year = {2022}
+  author = {Jian, Yiren and Gao, Chongyang and Vosoughi, Soroush},
+  title = {Embedding Hallucination for Few-shot Language Learning},
+  journal = {Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
+  year = {2022}
 }
 ```
 
