@@ -38,9 +38,9 @@ python tools/generate_k_shot_data.py
 ## Collecting Real Embeddings
 You will need to first collect real embeddings from the few-shot dataset (for further training of Hallucinator).
 ```shell
-for task in sst-5 #CoLA SST-2 MRPC QQP MNLI QNLI SNLI RTE mr subj trec cr mpqa
+for task in SST-2
 do
-  for seed in 13 #21 42 87 100
+  for seed in 13 21 42 87 100
   do
       for bs in 2
       do
@@ -62,9 +62,9 @@ done
 
 ## Training of Hallucinator
 ```shell
-for TASK in sst-5 #cola sst-2 mrpc qqp mnli qnli snli rte mr subj trec cr mpqa
+for TASK in sst-2
 do
-  for SEED in 13 #21 42 87 100
+  for SEED in 13 21 42 87 100
   do
     python cwgan_main.py \
       --task $TASK \
