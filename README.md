@@ -38,7 +38,7 @@ python tools/generate_k_shot_data.py
 ## Collecting Real Embeddings
 You will need to first collect real embeddings from the few-shot dataset (for further training of Hallucinator).
 ```shell
-for task in SST-2
+for task in sst-5
 do
   for seed in 13 21 42 87 100
   do
@@ -62,7 +62,7 @@ done
 
 ## Training of Hallucinator
 ```shell
-for TASK in sst-2
+for TASK in sst-5
 do
   for SEED in 13 21 42 87 100
   do
@@ -79,13 +79,13 @@ done
 Assuming you have one GPU in you system, we show an example of running our fine-tuning on SST-5.
 
 ```shell
-for task in SST-2
+for task in sst-5
 do
   for seed in 13 21 42 87 100
   do
       for emb_bs in 4 6 8
       do
-          for emb_lr in 1e-6 
+          for emb_lr in 1e-5
           do
               for kd_temperature in 0.4    #### is only used for LabelCalib
               do
