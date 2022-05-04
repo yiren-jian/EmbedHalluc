@@ -1,6 +1,6 @@
 # EmbedHalluc for Few-shot Language Learners
 
-This repo covers the implementation of the following paper:  **"Embedding Hallucination for Few-shot Language Learning"** by [Yiren Jian](https://cs.dartmouth.edu/~yirenjian/), [Chongyang Gao](https://gcyzsl.github.io/) and [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/), accepted to NAACL 2022.
+This repo covers the implementation of the following paper:  **[Embedding Hallucination for Few-shot Language Learning](https://arxiv.org/abs/2205.01307)** by [Yiren Jian](https://cs.dartmouth.edu/~yirenjian/), [Chongyang Gao](https://gcyzsl.github.io/) and [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/), accepted to NAACL 2022.
 
 <img src="figures/overview.png" width="400">
 
