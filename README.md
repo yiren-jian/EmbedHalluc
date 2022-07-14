@@ -1,16 +1,24 @@
 # EmbedHalluc for Few-shot Language Learners
 
-This repo covers the implementation of the following paper:  **[Embedding Hallucination for Few-shot Language Learning](https://arxiv.org/abs/2205.01307)** by [Yiren Jian](https://cs.dartmouth.edu/~yirenjian/), [Chongyang Gao](https://gcyzsl.github.io/) and [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/), accepted to NAACL 2022.
+This repo covers the implementation of the following paper:  **[Embedding Hallucination for Few-shot Language Learning](https://aclanthology.org/2022.naacl-main.404/)** by [Yiren Jian](https://cs.dartmouth.edu/~yirenjian/), [Chongyang Gao](https://gcyzsl.github.io/) and [Soroush Vosoughi](https://www.cs.dartmouth.edu/~soroush/), accepted to NAACL 2022.
 
 <img src="figures/overview.png" width="400">
 
 If you find this repo useful for your research, please consider citing the paper.
 ```bibtex
-@article{Jian2022EmbedHalluc,
-  author = {Jian, Yiren and Gao, Chongyang and Vosoughi, Soroush},
-  title = {Embedding Hallucination for Few-shot Language Learning},
-  journal = {Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
-  year = {2022}
+@inproceedings{jian-etal-2022-embedding,
+    title = "Embedding Hallucination for Few-shot Language Fine-tuning",
+    author = "Jian, Yiren  and
+      Gao, Chongyang  and
+      Vosoughi, Soroush",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.404",
+    pages = "5522--5530",
+    abstract = "Few-shot language learners adapt knowledge from a pre-trained model to recognize novel classes from a few-labeled sentences. In such settings, fine-tuning a pre-trained language model can cause severe over-fitting. In this paper, we propose an Embedding Hallucination (EmbedHalluc) method, which generates auxiliary embedding-label pairs to expand the fine-tuning dataset. The hallucinator is trained by playing an adversarial game with the discriminator, such that the hallucinated embedding is indiscriminative to the real ones in the fine-tuning dataset. By training with the extended dataset, the language learner effectively learns from the diverse hallucinated embeddings to overcome the over-fitting issue. Experiments demonstrate that our proposed method is effective in a wide range of language tasks, outperforming current fine-tuning methods. Further, we show that EmbedHalluc outperforms other methods that address this over-fitting problem, such as common data augmentation, semi-supervised pseudo-labeling, and regularization.",
 }
 ```
 
